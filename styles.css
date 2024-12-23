@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+nav {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+main {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+#voice-command {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#text-command {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+
+#results, #history {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 10px;
+}
